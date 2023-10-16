@@ -1,0 +1,155 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  margin: 5px;
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 900; /* Increased font weight for a bolder look */
+  color: #e87e6a; /* Changed color to the theme color */
+  margin-bottom: 10px;
+}
+
+.loginDesc {
+  font-size: 24px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.loginTitle {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.loginInputs {
+  width: 100%;
+}
+
+.loginInput {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton,
+.loginRegisterButton {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.loginButton {
+  background-color: #e87e6a; /* Changed background color to the theme color */
+  color: white;
+}
+
+.loginRegisterButton {
+  background-color: #e87e6a; /* Changed background color to the theme color */
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .loginWrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .loginLeft,
+  .loginRight {
+    width: 100%;
+    text-align: center;
+  }
+
+  .loginBox {
+    width: 80%;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+  .loginLogo {
+    font-size: 40px;
+  }
+
+  .loginDesc {
+    font-size: 18px;
+  }
+
+  .loginTitle {
+    font-size: 24px;
+  }
+
+  .loginInput {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .loginButton,
+  .loginRegisterButton {
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+.logoContainer {
+  text-align: center;
+}
+
+.loginLogo {
+  font-size: 48px;
+  font-weight: 900;
+  color: #e87e6a;
+  margin-bottom: 5px;
+}
+
+.slogan {
+  font-size: 18px;
+  font-weight: 500;
+  color: #777;
+}

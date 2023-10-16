@@ -1,0 +1,14 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    max-height: calc(100vh - 50px); 
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
