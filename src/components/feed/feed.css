@@ -1,0 +1,18 @@
+.feed{
+    flex: 5.5;
+    max-height: 100vh; /* Adjust to accommodate the top bar height */
+    overflow-y: auto ;
+}
+
+.feedWrapper{
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /* You can also set the background color to match the container background to hide it further */
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
